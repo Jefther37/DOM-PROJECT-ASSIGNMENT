@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS & DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My JS Page!</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="dynamic-text">This paragraph will change dynamically.</p>
+      <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <section>
+      <p id="style-paragraph">Watch me change color!</p>
+      <button onclick="changeStyle()">Change Style</button>
+    </section>
+
+    <section>
+      <div id="element-container">
+        <p id="toggle-paragraph">This element can be removed and added again.</p>
+      </div>
+      <button onclick="toggleElement()">Add/Remove Element</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PLP Web Technologies</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
